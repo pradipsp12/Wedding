@@ -1,0 +1,125 @@
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .right-wife {
+        display: none !important;
+    }
+    .navbar-customise {
+        margin-top: 170px;
+    }
+       .gallery-heading::after {
+    content: "";
+    bottom: -19px;
+    right: 200px;
+}
+    .recent-activity::after {
+    content: "";
+    right: 320px;
+    bottom: -19px;
+}
+    .reserve-request::after {
+    content: "";
+    right: 305px;
+    bottom: -19px;
+}
+    
+}
+@media screen and (min-width:767px) and (max-width:991px) {
+    .txt-center {
+        text-align: center;
+    }
+    .right-wife {
+        display: none !important;
+    }
+    .baner-left-button {
+        float: none;
+        margin: auto;
+        display: block
+    }
+    .baner-right-button {
+        float: none;
+        margin: auto;
+        display: block;
+        margin-top: 15px;
+    }
+    .iamge-3rd {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+    .user-testomonial {
+        color: red;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .navbar-customise {
+        margin-top: 85px;
+    }
+       .gallery-heading::after {
+    content: "";
+    bottom: -19px;
+    right: 90px;
+}
+     .recent-activity::after {
+    content: "";
+    right: 200px;
+    bottom: -19px;
+}
+    .reserve-request::after {
+    content: "";
+    right: 205px;
+    bottom: -19px;
+}
+}
+@media screen and (min-width:380px) and (max-width:766px) {
+    .txt-center {
+        text-align: center;
+    }
+    .right-wife {
+        display: none !important;
+    }
+    .baner-left-button {
+        float: none;
+        margin: auto;
+        display: block
+    }
+    .baner-right-button {
+        float: none;
+        margin: auto;
+        display: block;
+        margin-top: 15px;
+    }
+    .iamge-3rd {
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+    .user-testomonial {
+        color: red;
+        font-size: 20px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .deatils-comment {
+        padding: 380px 20px 40px 20px;
+    }
+    .navbar-customise {
+        margin-top: 125px;
+    }
+    .gallery-heading::after {
+    content: "";
+    bottom: -19px;
+    right: 20px;
+}
+     .recent-activity::after {
+    content: "";
+    right: 100px;
+    bottom: -19px;
+}
+    .reserve-request::after {
+    content: "";
+    right: 100px;
+    bottom: -19px;
+}
+}

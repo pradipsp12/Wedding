@@ -1,0 +1,344 @@
+/*=========================
+common css
+=================================*/
+body {
+    margin: 0;
+    padding: 0;
+}
+/*===============================
+main-content-css
+1. banner-css
+2. menu-css
+3. gallery-css
+4.about-us-css
+5.recent-activity-css
+6.Reserve-request-css
+7.testomonial-css
+8.feedback-css
+9.footer-css
+============================*/
+
+
+/*=====================================
+    1.banner-css
+=======================================*/
+.top-background {
+    background: #051306;
+    min-height: 50px;
+}
+.baner-background {
+    background: url(../image/baner.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 750px;
+}
+.logo-one {
+    position: relative;
+    left: -115px;
+}
+.right-wife {
+    min-height: 678px;
+    position: relative;
+    bottom: 0px;
+    float: right;
+    right: -115px;
+}
+.baner-left-button {
+    background: #ff0000;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 35px;
+    font-size: 30px;
+    padding: 10px 30px 10px 30px;
+    float: right;
+}
+.baner-right-button {
+    background: #111111;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 35px;
+    font-size: 30px;
+    padding: 10px 30px 10px 30px;
+    float: left;
+}
+/*=====================================
+    2.menu-css
+=======================================*/
+
+.menu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: #0000007a;
+}
+.navbar-customise {
+    min-height: 70px !important;
+}
+li {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+ul {
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 0x;
+}
+.active {
+    background: #980d07;
+}
+.heading-text {
+    margin: auto;
+    display: block;
+}
+/*=====================================
+    3.gallery-css
+=======================================*/
+.background-gallery {
+    background: url(vector.png);
+    background-repeat: no-repeat;
+    height: 370px;
+}
+.gallery {
+    background: url(../image/back-g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 4500px;
+}
+.gallery-heading {
+    font-size: 50px;
+    font-family: Bodoni MT Bold Italic;
+    padding-top: 200px;
+    ;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+.gallery-heading::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 500px;
+    background: #c9c9ff;
+    bottom: -19px;
+    right: 310px;
+}
+.iamge-1st {
+    width: 100%;
+    border: 1px solid red;
+    box-shadow: 1px 1px 17px #0c0909cc;
+}
+.image-2nd {
+    width: 100%;
+    border: 1px solid red;
+    box-shadow: 1px 1px 17px #0c0909cc;
+}
+.iamge-3rd {
+    width: 100%;
+    height: 665px;
+    border: 1px solid red;
+    box-shadow: 1px 1px 17px #0c0909cc;
+}
+/*=====================================
+    4.about-us-css
+=======================================*/
+.clint-pic {
+    border-radius: 80px;
+    margin-top: 130px;
+    box-shadow: 1px 1px 25px #965656;
+}
+.about {
+    padding-top: 150px;
+    float: left;
+}
+.about-details {
+    float: left;
+    padding-top: 70px;
+}
+.other-details {
+    padding-top: 80px;
+    color: red;
+    float: left;
+}
+.contact-btn {
+    background: red;
+    float: left;
+    color: white;
+    margin-top: 160px;
+    width: 200px;
+}
+/*=====================================
+    5.recent-activity-css
+=======================================*/
+.recent-activity {
+    font-size: 45px;
+    text-align: center;
+    padding-top: 130px;
+    position: relative;
+}
+.recent-activity::after {
+    content: "";
+    width: 300px;
+    height: 2px;
+    background: #c9c9ff;
+    position: absolute;
+    right: 405px;
+    bottom: -19px;
+}
+.activity-image {
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    width: 100%;
+    box-shadow: 1px 5px 25px #11111178;
+}
+.mohini {
+    margin-top: 15px;
+    color: red;
+}
+.activity-middle-image {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 1px px 25px #11111178;
+}
+.Durba {
+    margin-top: 100px;
+    color: red;
+}
+/*=====================================
+    6.Reserve-request-css
+=======================================*/
+.reserve-request {
+    padding-top: 180px;
+    font-size: 45px;
+    position: relative;
+}
+.reserve-request::after {
+    content: "";
+    width: 300px;
+    height: 2px;
+    background: #c9c9ff;
+    position: absolute;
+    right: 405px;
+    bottom: -19px;
+}
+.reserve-details {
+    color: red;
+    font-size: 30px;
+}
+.contact-request-btn {
+    width: 200px;
+    background: red;
+    color: white;
+    margin-top: 80px;
+}
+.booking-request-btn {
+    width: 200px;
+    background: black;
+    color: white;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+/*=====================================
+    7.testomonial-css
+=======================================*/
+.testmonial {
+    background: #ebebeb;
+    margin: 5px;
+    border: 5px solid white;
+    box-shadow: 1px 5px 25px #11111126;
+}
+.testo-img {
+    width: 100%;
+}
+.testo-circle-img {}
+.user-testomonial {
+    color: red;
+    font-size: 30px;
+    padding-top: 120px;
+}
+.image-position {
+    position: relative;
+}
+.user-position {
+    position: absolute;
+    top: 250px;
+    z-index: 9999;
+}
+.right-testomonial-user {
+    margin: 5px;
+    border: 5px solid white;
+    background: #e1e1e1;
+    min-height: 450px;
+    box-shadow: 1px 5px 25px #11111126;
+}
+.pampa {
+    color: red;
+    margin: auto;
+    display: block;
+    padding: 250px 20px 20px 20px;
+}
+.pampa-comment {
+    padding: 20px;
+}
+.deatils-comment {
+    padding: 180px 20px 40px 20px;
+}
+/*=====================================
+    8.feedback-css
+=======================================*/
+.feedback-box {
+    background: #f8b4b3;
+    min-height: 220px;
+}
+.feedback-head {
+    font-size: 30px;
+    color: red;
+    margin: auto;
+    display: block;
+    padding-top: 15px;
+}
+.name-input {
+    width: 40%;
+    margin-top: 30px;
+}
+.email-input {
+    width: 40%;
+    margin-top: 30px;
+}
+.address-input {
+    width: 82%;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+/*=====================================
+    9.footer-css
+=======================================*/
+.footer {
+    background: #444e44;
+    min-height: 300px;
+}
+.footer-head {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+}
+.footer-head-line {
+    font-size: 16px;
+    color: white;
+    padding-left: 20px;
+}
+.copy-rights {
+    color: white;
+    padding-top: 110px;
+}
+/*=====================================
+    thanku
+=======================================*/
